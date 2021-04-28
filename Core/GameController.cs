@@ -214,13 +214,14 @@ namespace ExileCore
         {
             if (!InGame) return Vector2.Zero;
 
-            //  var questPanel = Game.IngameState.IngameUi.QuestTracker;
-            var gemPanel = Game.IngameState.IngameUi.GemLvlUpPanel.Parent;
+            ////  var questPanel = Game.IngameState.IngameUi.QuestTracker;
+            //var gemPanel = Game.IngameState.IngameUi.GemLvlUpPanel.Parent;
 
-            //    var questPanelRect = questPanel.GetClientRectCache();
-            RectangleF clientRect;
-            clientRect = gemPanel.GetClientRectCache;
-            return new Vector2(clientRect.X + clientRect.Width, clientRect.Y + clientRect.Height);
+            ////    var questPanelRect = questPanel.GetClientRectCache();
+            //RectangleF clientRect;
+            //clientRect = gemPanel.GetClientRectCache;
+            //return new Vector2(clientRect.X + clientR1ect.Width, clientRect.Y + clientRect.Height);
+            return new Vector2(0 + 2560, 0 + 1440);
         }
     }
 }
